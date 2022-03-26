@@ -28,4 +28,4 @@ async def 인제대(ctx):
     except:
         await ctx.send('인제대학교 IU-Navi 오류 발생')
     
-app.run('토큰 가리기')
+app.run('토큰 가리기') #개인 디스코드 봇 토큰 자리
