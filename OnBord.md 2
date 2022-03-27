@@ -1,0 +1,161 @@
+# 멘토링
+
+[커리큘럼 따라가기 ](https://www.notion.so/cb7a00cb6b0349ea964d65e66731ae76)
+
+### 멘토링 계획
+
+[1. On Bord](https://www.notion.so/1-On-Bord-7c3ca48b8ef14fc5b9b049c12eda7426)
+
+### On Bord
+
+### GitHub
+
+[GitHub 버전관리](https://www.notion.so/GitHub-4574d37fc5e0494d8de03eb2a0915f60)
+
+---
+
+### Fundamental knowledge
+
+[기본 터미널 사용법](https://www.notion.so/9c7aa8caa23043e89fc7b6831c764dd9)
+
+[오픈소스 라이선스](https://www.notion.so/cd5347ea16df4d5d97e378e45dcf1450)
+
+[유의적 버전](https://www.notion.so/03f6e0adbae243be8476150f91348e95)
+
+[SSH](https://www.notion.so/SSH-d6bae6c479da44d68faca39299c4f06b)
+
+[http/https](https://www.notion.so/http-https-12cb11e016404e4683de53d070e59a39)
+
+[API](https://www.notion.so/API-6f0bb2901b5f41f185b695b25e3c108f)
+
+[문자인코딩](https://www.notion.so/7841974584ac47d09edcbe737ca180cf)
+
+[라이브러리와 프레임워크의 차이](https://www.notion.so/c3bafb9861df4c9c87a83eeeea2a37f1)
+
+---
+
+### Test
+
+[Test](https://www.notion.so/Test-181a04bb5d95476b903aae49f06483f2)
+
+[테스트 종류](https://www.notion.so/f318c595d7e948458b22e8954a41022a)
+
+---
+
+### Internet
+
+[클라이언트와 서버](https://www.notion.so/77cca36a905c40f6a09f06a403e6f607)
+
+[인터넷 작동원리](https://www.notion.so/4a73e700f9b84d60ab9325d0ccf091a6)
+
+[브라우저 동작원리](https://www.notion.so/be5bca8a75b64ccabb5b08c90b5c20ac)
+
+[DNS와 동작원리](https://www.notion.so/DNS-89a9a5e2ad51429fa7c91d3ffdc88786)
+
+[Domain name](https://www.notion.so/Domain-name-89f38c25401f4124be7fabbad1403d4b)
+
+[Hosting](https://www.notion.so/Hosting-e4ee4bb8724b47b3b38e1da7f2c3ed2b)
+
+---
+
+### Front
+
+HTML
+
+CSS
+
+JavaScript
+
+[웹 보안지식](https://www.notion.so/7b0ace9fbf734880be9785e91497ef7e)
+
+[패키지 매니저](https://www.notion.so/1e40856d82664fdaafb826606d829d03)
+
+[Formatters](https://www.notion.so/Formatters-6dd57738fedc4a58b1eec07435dd176e)
+
+---
+
+### Back
+
+[OS](https://www.notion.so/OS-6c430091053c4e799a8cda51fb49e6ea)
+
+[OS - Deap](https://www.notion.so/OS-Deap-751b2f4e095e4ba1b10e81ee50f9169c)
+
+[Java](https://www.notion.so/Java-a7d3bdd7a770450281581fec9dd76014)
+
+[DataBase](https://www.notion.so/DataBase-00294d353bad4d7eb257fe6707d1530f)
+
+[Auth](https://www.notion.so/Auth-147f8a67ff94402db8f5c4b82de79a91)
+
+[API](https://www.notion.so/API-b17fe4f668f6423c816255656fb842d2)
+
+---
+
+## ~~Git 버전 관리 🥕~~
+
+- ~~기본적인 터미널 사용법~~
+- ~~깃 허브~~
+- 라이센스 `🔴`🔎~~🥕~~
+- 유의적 버전 `🔴`🔎~~🥕~~
+- SSH `🔴`🔎 ~~🥕~~
+- HTTP/HTTPS 와 APIs `🔴`🔎
+- 문자 인코딩 `~~🔴` UTF-8, UNICODE🥕~~
+- 라이브러리와 프레임워크의 차이
+
+---
+
+- 공통
+    - Test `🔴`🔎
+        - 통합 테스트
+        - 단위 테스트
+        - 기능 테스트
+- 인터넷 `🔴`~~🥕~~🔎
+    - 동작원리
+    - 브라우저 동작원리
+    - DNS 와 동작원리
+    - 도메인 네임이란
+    - 호스팅이란
+- Front 기본
+    - HTML~~🥕~~
+    - CSS🔎 `🔴`~~🥕~~
+    - JS🔎 `🔴`
+    - 웹 보안 지식🔎`🔴`~~🥕~~
+        - HTTPS
+        - 컨텐츠 보안 정책
+        - CORS
+    - 패키지 매니저🔎`🔴`
+        - npm
+        - yarn~~🥕~~
+    - Formatters🔎`🔴`
+        - Prettier
+        - ESLint~~🥕~~
+- Back 기본`🔴`
+    - OS
+        - 일반적인 작동 방식~~🥕~~
+        - 프로세스 관리~~🥕~~
+        - 스레드, 동시성~~🥕~~
+            - Deadlock (아주 중요하게 가르치기)🔎
+        - IPC `🔴`🔎~~🥕~~
+        - POSIX `🔴`🔎~~🥕~~
+    - Java `🔴`🔎
+        - Basic Syntax
+    - DB🔎
+        - SQL `🔴`
+            - PostgreSQL DBMS~~🥕~~
+            - 문법~~🥕~~
+        - NoSQL `🔴`~~🥕~~
+            - MongoDB
+            - 이런게 있다
+        - ORM `🔴`~~🥕~~
+        - ACID `🔴`~~🥕~~
+        - Transaction
+        - N+1 Problem~~🥕~~
+    - Auth `🔴`🔎~~🥕~~
+        - Cookie
+        - Session
+        - OAuth
+        - 기본 인증
+        - Token 인증
+        - JWT
+    - API `🔴`🔎
+        - REST
+        - JSON APIs
