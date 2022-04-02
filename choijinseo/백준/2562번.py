@@ -1,3 +1,5 @@
+number = list()
 for i in range(9):
-    number = list(map(int,(input())))
-print(number[i],end="")
+    number.append(int(input()))
+print(max(number))
+print(number.index(max(number))+1)
