@@ -10,4 +10,4 @@ for i in range(len(num)):
         else:
             count.append(-1)
 print(count,end=" ")
-## 5일째 푸는데 못 하겠습니다 ㄹㅇ... 내 머리통 부수고 싶네.
+## 5일째 푸는데 못 하겠습니다 ㄹㅇ... 내 머리통 부수고 싶네..
