@@ -3,3 +3,11 @@ a {
     color: rgb(165, 158, 53);
     font-weight: 500;
 }
+
+#yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
