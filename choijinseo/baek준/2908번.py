@@ -6,11 +6,4 @@ if num1 > num2:
     print(num1)
 else:
     print(num2)
-#print(num1,num2)
-# change = list()
-# if A < B:
-#     change.append(A)
-# else:
-#     change.append(B)
-# change.reverse()
-# print(change)
+
