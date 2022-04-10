@@ -1,3 +1,4 @@
+#수 찾기
 import sys
 m1=int(sys.stdin.readline())
 li1 = set(map(int,input().split()))
