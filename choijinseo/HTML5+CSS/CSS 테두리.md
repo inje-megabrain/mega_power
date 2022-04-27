@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class = "main-frame">
-            나라사랑 한글사랑
+            나라사랑 한글사랑.
         </div>
     </body>
 </html>
