@@ -1,4 +1,6 @@
 ﻿  3-12.cpp
-  소스.cpp
-  코드를 생성하고 있습니다...
-  3-12.vcxproj -> C:\Users\문준호\Desktop\3-12\x64\Debug\3-12.exe
+C:\Users\문준호\mega\c++ 문제\3-12\3-12\3-12.cpp(11,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\문준호\mega\c++ 문제\3-12\3-12\3-12.cpp(19,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\문준호\mega\c++ 문제\3-12\3-12\3-12.cpp(21,1): error C2660: 'strcpy_s': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(32,30): message : 'strcpy_s' 선언을 참조하십시오.
+C:\Users\문준호\mega\c++ 문제\3-12\3-12\3-12.cpp(25,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.

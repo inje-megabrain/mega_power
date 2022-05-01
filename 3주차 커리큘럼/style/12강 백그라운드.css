@@ -1,0 +1,12 @@
+.content {
+    width: 500px;
+    height: 200px;
+    /*사진의 크기 조절가능 안하면 자동조정*/
+    background-image: url("../자바이미지.jpg");
+    background-repeat: no-repeat;
+    /*사진 반복해서 안넣고 한번만 들어감*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*스크롤로 사진을 못내리고 고정됨*/
+}

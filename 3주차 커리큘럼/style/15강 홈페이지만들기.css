@@ -1,0 +1,37 @@
+body {
+    background-image: url("../1/DAEJIN_Background2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.main-frame {
+    text-align: center;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    /*위에 두줄로 가운데 정렬을 할 수 있음*/
+}
+
+#logo {
+    margin-top: 50px;
+    
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu-img {
+    float: left;
+}
+
+.copyright {
+    margin-top: 50px;
+}
