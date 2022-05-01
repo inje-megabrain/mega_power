@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url("/Users/choijinseo/mega/mega_power/choijinseo/HTML5+CSS/Web/img/common.jpg");
+}
+
+.frame {
+    position: relative;
+    width: 850px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.button {
+    margin: 0 auto;
+    color: white;
+    border: 1px solid #003c8a;
+    background-color: #003c8a;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    border: 1px solid #a0f11d;
+    background-color: #a0f11d;
+}
