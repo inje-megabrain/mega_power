@@ -1,6 +1,0 @@
-.left {
-    position: fixed;
-    /*포지션속성이 있어야 tlrb를 사용할 수 있음*/
-    right: 50px;
-    bottom: 50px;
-}
