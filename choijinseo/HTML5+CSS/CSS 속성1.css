@@ -1,0 +1,20 @@
+/* body {
+   text-align: center;  
+} */
+div {
+    float: left;
+    /* float: none; 기본값 */ 
+}
+.left {
+    text-align: left;
+    border: 1px solid black;
+}
+.center {
+    text-align: center;
+    font-size: 55px;
+    border: 1px solid black;
+}
+.right {
+    text-align: right;
+    border: 1px solid black;
+}
