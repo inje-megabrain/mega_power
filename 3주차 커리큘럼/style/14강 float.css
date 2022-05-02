@@ -1,0 +1,17 @@
+div {
+    float: right;
+}
+
+.left{
+    text-align: left;
+    border: 1px solid #000;
+}
+.center{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid #000;
+}
+.right{
+    text-align: right;
+    border: 1px solid #000;
+}
