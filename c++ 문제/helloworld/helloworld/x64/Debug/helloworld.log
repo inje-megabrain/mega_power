@@ -1,2 +1,0 @@
-﻿hello.obj : error LNK2005: main이(가) 3-9.obj에 이미 정의되어 있습니다.
-C:\Users\문준호\Desktop\helloworld\x64\Debug\helloworld.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
