@@ -1,9 +1,0 @@
-.content {
-    width: 500px;
-    height: 200px;
-    background-image: url("/Users/choijinseo/mega/mega_power/choijinseo/HTML5+CSS/background.png");
-    background-repeat: no-repeat; /*이미지 반복 X*/
-    background-size: cover; /*화면 가득*/
-    background-position: center; /*이미지 화면 가운데*/
-    background-attachment: fixed; /*배경이미지 고정*/
-}
