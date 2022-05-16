@@ -9,7 +9,7 @@ div{
   /* padding-top: 30%; */
   box-sizing: border-box;
   /* text-align: center; */
-  /* border-bottom: 1px solid grey; */
+  /* border-bottom: 1px solid grey; */  
   /* align-content: center; */
   flex: 1;
   float: left;
@@ -18,25 +18,33 @@ div{
   margin-right: 10rem;
   /* background-color: grey; */
 }
+a{
+  font-family: 'ParkYongJun';
+  color:black;
+  font-size: 50px;
+}
 .me{
   padding-bottom: 2rem;
   border-bottom: 1px solid black;
 }
+
 .pro{
   /* text-align: left; */
   /* margin-right: rem; */
   margin-top: 2rem;
   padding-left: 3rem;
 }
-.info{
+.info{ 
+  margin-top: 4rem;
   text-align: left;
   /* padding-left: 35%; */
-  padding-top: 12rem;
-  padding-bottom: 7em;
+  padding-top: 20rem;
+  padding-bottom: 12em;
   background-image: url("/Users/moon/Desktop/mega-power/mega_power/10주차-문상원/react/blog/public/mega.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .face{
@@ -45,7 +53,7 @@ div{
   background-position: center;
   width: 20rem;
   height: 500px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   flex: 1;
   float: left;
   margin-top: 2rem;
@@ -60,7 +68,8 @@ div{
   font-size:100px;
   text-align: center;
   margin-top: 45rem;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
+  
  
 }
 .spring{
@@ -70,8 +79,8 @@ div{
   background-position: center;
   width: 20rem;
   height: 300px;
-  margin-left: 5rem;
-  
+  margin-left: 8%;
+  margin-top: 10rem;
   
 }
 .spring:hover{
@@ -79,12 +88,13 @@ div{
 }
 .python{
   margin-top: -18rem;
-  background-image: url("https://img1.daumcdn.net/thumb/R300x0/?fname=https://k.kakaocdn.net/dn/Sn5BI/btqvdkakK48/1qjsbkBRFJG4zeABS1GCMK/img.png");
+  background-image: url("https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   width: 20rem;
   height: 300px;
-  margin-left: 27rem;
+  margin-left: 33%;
   
   
 }
@@ -98,7 +108,7 @@ div{
   background-position: center;
   width: 20rem;
   height: 300px;
-  margin-left: 45rem;
+  margin-left: 55%;
 }
 .java:hover{
   transform: scale(1.4);
@@ -110,7 +120,7 @@ div{
   background-repeat: no-repeat;
   width: 20rem;
   height: 300px;
-  margin-left: 65rem;
+  margin-left: 75%;
 }
 .c:hover{
   transform: scale(1.4);
@@ -119,7 +129,8 @@ div{
   font-family: 'ParkYongJun';
   font-size: 100px;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
+  margin-top: 15rem;
 }
 .App-logo {
   height: 40vmin;
@@ -139,6 +150,10 @@ h4{
   font-family: 'ParkYongJun';
   text-align: left;
   font-size: 40px;
+}
+h3{
+  font-family: 'ParkYongJun';
+  color: black;
 }
 .App-header {
   background-color: #282c34;
