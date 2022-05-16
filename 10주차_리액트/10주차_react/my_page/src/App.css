@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Donoun-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Donoun-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WooridaumB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/WooridaumB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HallymGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WooridaumB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/WooridaumB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.name{
+  font-size:30px;
+  padding-top:20px;
+  padding-left:20px;
+}
+.profile_photo{
+  padding-top: 100px;
+  font-family: 'WooridaumB';
+  color: white;
+  font-size:50px;
+  padding-left: 40px;
+  position: relative;
+  z-index:1;
+}
+
+.profile_photo::after{
+  content:"";
+  background-image: url("./타이틀사진.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position:absolute;
+  z-index:-1;
+  top: 0;
+  left: 0;
+}
+.picture{
+  background-image: url("./photo.jpg");
+  margin-top: 0px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+}
+.info_content{
+  margin-top: 10px;
+  margin-left: 50px; 
+  text-align: left;
+}
+.info_list{
+  font-size: 25px;
+  font-family: 'SuseongDotum';
+  padding-top: 10px;
+}
+.study_list{
+  margin-top: -70px;
+  background-color: rgb(255, 248, 144);
+  width: 600px;
+  height: 400px;
+}
+
+.box_title{
+  margin-top: 70px;
+  font-family: 'WooridaumB';
+  font-size: 30px;
+}
+
+.megabox{
+  margin-top: 0px;
+  background-color: rgb(144, 251, 255);
+  width: 600px;
+  height: 400px;
+  font-family: 'WooridaumB';
+  font-size: 30px;
+}
+.btnm{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.appinvent{
+
+  background-color: rgb(243, 182, 228);
+  width: 600px;
+  height: 250px;
+  font-family: 'WooridaumB';
+  font-size: 30px;
+  margin-top: 45px;
+}
+.list_info{
+  margin-top:30px;
+  font-size:20px;
+}
+.link_box{
+  background-color: rgb(185, 247, 183);
+  width: 600px;
+  height: 250px;
+  font-family: 'WooridaumB';
+  font-size: 30px;
+  margin-top: 45px;
+}
+
+.btn_git{
+  background-image: url("./깃허브.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-top:30px;
+  margin-right: 60px;
+}
+.btn_no{
+  background-image: url("./노션.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top:30px;
+  margin-left: 50px;
+}
+.c{
+  background-image: url("./c언어.png");
+  margin-top: 30px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.cpp{
+  background-image: url("./c++.png");
+  margin-top: 30px;
+  margin-left: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 170px;
+}
+
+.java{
+  background-image: url("./java.png");
+  margin-left: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 210px;
+  height: 130px;
+}
+
+.py{
+  background-image: url("./python.png");
+  margin-top: 30px;
+  margin-left: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.html{
+  background-image: url("./html.png");
+  margin-top: 50px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.js{
+  background-image: url("./js.png");
+  margin-top: 30px;
+  margin-left: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 160px;
+}
+.react{
+  background-image: url("./react.png");
+  margin-top: -60px;
+  margin-left:200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
