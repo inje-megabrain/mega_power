@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+.App {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+.whitebg-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whitebg-main > h5 {
+  color: gray;
+  position: absolute;
+  bottom: 30px;
+  font-size: 1.2em;
+}
+
+.whitebg-main > h1 {
+  color: black;
+}
+
+.blackbg-main {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.blackbg-main > h1 {
+  color: white;
+}
+
+.main-bg {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5) url('./main_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-bg > .introduction > h3 {
+  font-size: 3em;
+  line-height: 1.1em;
+}
+
+.main-bg > .introduction > h2 {
+  font-size: 5em;
+}
+
+.main-bg > .introduction {
+  color: white;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.main-bg > h5 {
+  color: gray;
+  position: absolute;
+  right: 32px;
+  bottom: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.blackbg-main > h2 {
+  color: white;
+  font-size: 3em;
+  line-height: 50px;
+  text-align: center;
+}
+
+.blackbg-main > h3 {
+  text-align: center;
+  color: white;
+}
+
+.aboutMe {
+  background: rgba(0, 0, 0, 0.5) url('./ucpc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutMe > .name {
+  
+}
+
+.aboutMe > .name > h2 {
+  font-weight:800;
+  color:white;
+  font-size: 2.8em;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);;
+}
+
+.aboutMe > .project-achive {
+  display: flex;
+  gap: 50px
+  
+}
+
+.aboutMe > .project-achive > div > h3 {
+  font-size: 1.4em;
+  color: rosybrown;
+}
+
+.aboutMe > .project-achive > .project {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.aboutMe > .project-achive > .project > .project-detail {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aboutMe > .project-achive > .project > .project-detail > .prj {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe > .project-achive > .project > .project-detail > .prj > h5 {
+  color: gray
+}
+
+.aboutMe > .project-achive > .project > .project-detail > .prj > h4 {
+  font-size: 20px;
+}
+
+.aboutMe > .project-achive > .achive {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.aboutMe > .project-achive > .achive > .achive-detail {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aboutMe > .project-achive > .achive > .achive-detail > .ach {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe > .project-achive > .achive > .achive-detail > .ach > h5 {
+  color: gray;
+}
+
+.aboutMe > .project-achive > .achive > .achive-detail > .ach > h4 {
+  font-size: 20px;
+}
+
+.aboutMe > .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.aboutMe > .contact > h3 {
+  font-size: 1.4em;
+  color: rosybrown;
+  width: fit-content;
+}
+
+.aboutMe > .contact > .contact-detail {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: fit-content;
+}
+
+.aboutMe > .contact > .contact-detail > p {
+  font-weight: 700;
+}
+
+.aboutMe > .name > ul > li {
+  font-weight: 700;
+  margin: 10px 0px;
+  color:lightgray;
+  text-shadow: 0px 0.6px 1px rgba(0, 0, 0, 1);
+}
