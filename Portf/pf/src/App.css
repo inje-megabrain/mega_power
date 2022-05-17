@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.top-name {
+  display: flex;
+  background-image: url("/Users/choijinseo/mega/mega_power/Portf/pf/public/초록아주머니.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-left: 30px;
+  font-family: 'EarlyFontDiary';
+}
+
+.pic {
+  margin-top: 50px;
+  margin-left: 30px;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/몽키.JPG');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-content {
+  padding-right: 80px;
+  margin-top: -400px;
+  font-family: 'KyoboHandwriting2020A';
+  text-align: right;
+}
+
+.middle {
+  margin-top: 30px;
+  font-family: 'ACCchildrenheartOTF-Regular';
+  padding-bottom: 50px;
+}
+.middle1 {
+  margin-top: -250px;
+  padding-left: 15%; /* 200px */
+}
+.middle-right {
+  margin-left: 50%; /* 350px */
+  font-family: 'HSYuji-Regular';
+  font-size: 20px;
+}
+
+.middle2 {
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.box {
+  margin-left: 100px;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/산.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.box1 {
+  margin-top: -300px;
+  margin-left: 600px;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/아이.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+.box2 {
+  margin-top: 100px;
+  margin-left: 300px;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/불.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+}
+.box:hover {
+  transform: scale(1.4);
+}
+.box1:hover {
+  transform: scale(1.4);
+}
+.box2:hover {
+  transform: scale(1.4);
+}
+.peace {
+  margin-top: 20px;
+  font-size: 50px;
+  color: white;
+  font-family: 'SANJUGotgam';
+}
+.peace1 {
+  margin-top: 20px;
+  font-size: 50px;
+  color: yellow;
+  font-family: 'SANJUGotgam';
+}
+.peace2 {
+  margin-top: 30px;
+  font-size: 50px;
+  color: rgb(225, 217, 217);
+  font-family: 'SANJUGotgam';
+}
+.skill1 {
+  margin-top: 20px;
+  margin-left: 10%;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/hcj.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+.skill2 {
+  margin-top: -300px;
+  margin-left: 60%;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/java.png');
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.skill3 {
+  margin-top: 40px;
+  margin-left: 300px;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/spring.png');
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.skill4 {
+  margin-top: -200px;
+  margin-left: 60%;
+  background-image: url('/Users/choijinseo/mega/mega_power/Portf/pf/public/python.png');
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.skill1:hover {
+  transform: scale(1.4);
+}
+.skill2:hover {
+  transform: scale(1.4);
+}
+.skill3:hover {
+  transform: scale(1.4);
+}
+.skill4:hover {
+  transform: scale(1.4);
+}
+
+.bottom {
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 80px;
+  font-size: 40px;
+  font-family: 'SANJUGotgamSANJUGotgam';
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Galmuri9';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/Galmuri9.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ACCchildrenheartOTF-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HSYuji-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSYuji-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SANJUGotgam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANJUGotgam.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
