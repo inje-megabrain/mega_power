@@ -1,0 +1,5 @@
+폴더 터미널 열기
+npx create-react-app (프로젝트이름)
+프로젝트이름에 한글 x
+vscode로 폴더열고 src폴더->App.js(작업할 공간)
+터미널 ->새터미널->npm start = 브라우저열기
