@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+
+  /* 스크롤 잠금 */
+  overflow-y: hidden;
+  font-family: "notoSans";
+  white-space: nowrap;
+}
+
+.outer {
+  height: 100vh;
+  /* 스크롤 제어 */
+  overflow-y: auto;
+}
+.inner {
+  height: 100vh;
+}
+
+/* 스크롤바 숨기기 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+span {
+  color: #50586c;
+}
+
+.bg-gray {
+  background-color: #dce2f0;
+  padding-left: 100px;
+}
+
+.bg-blue {
+  background-color: #b6d8f2;
+}
+.bg-pink {
+  padding: 0 20%;
+  background-color: palevioletred;
+}
+
+.enName {
+  /* background-color: pink; */
+  font-size: 40pt;
+}
+
+.korName {
+  /* background-color: bisque; */
+  font-size: 200pt;
+  font-family: "NotoSans";
+  white-space: nowrap;
+}
+
+.intro {
+  right: 100px;
+  bottom: 100px;
+  /* background-color: wheat; */
+  font-size: 35pt;
+  font-family: "notoSans";
+  text-align: right;
+  white-space: nowrap;
+}
+/*  */
+
+.item {
+  min-height: 20rem;
+  min-width: 400px;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}
+.carouselBlock {
+  cursor: grab;
+  overflow: hidden;
+  background: whitesmoke;
+}
